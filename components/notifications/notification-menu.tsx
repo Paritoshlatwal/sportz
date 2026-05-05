@@ -68,7 +68,6 @@ export function NotificationMenu() {
   useEffect(() => {
     setOpen(false);
   }, [pathname]);
-
   return (
     <div className="relative">
       <button
